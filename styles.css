@@ -1,0 +1,122 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0; 
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background-color: cadetblue;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: black 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.button {
+    height: 38px;
+    background: deeppink;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand {
+    float: left;
+}
+header #brand h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    color: rgb(2, 2, 27);
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+#showcase{
+    min-height: 400px;
+    background: url("../Activity\ 3/1.jpg") no-repeat 0 -500px;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#newsletter {
+    padding: 15px;
+    color: #0e0101;
+    background: #35424a;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 20px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+
+}
+#boxes {
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img{
+    width: 200px;
+}
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #4d19c7;
+}
+aside#sidebar{
+    float: right;
+    width: 500px;
+    margin-top: 30px;
+}
+.dark {
+    padding: 15px;
+    background-color: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
